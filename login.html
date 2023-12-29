@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>EMS HOme</title>
+    <link rel="stylesheet"  href="../static/css/emp.css">
+
+</head>
+<body background="../static/login.jpg">
+    <h1>Welcome to EMS</h1>
+    <h2>Enter Your Login Details</h2>
+    <form action="/emp_home" method="post">
+        <label>Username:</label>
+        <input type="text" name="username">
+        <br>
+        <br>
+        <label>Password:</label>
+        <input type="password" name="password">
+        <br>
+        <br>
+        <input type="submit" value="Login"><br><br>
+        {{msg}}
+    </form>
+</body>
+</html>
